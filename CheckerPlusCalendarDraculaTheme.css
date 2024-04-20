@@ -1,0 +1,367 @@
+/background color/
+
+.mail,
+
+body.popup app-toolbar:not(.accountHeader),
+
+#betaCalendar .fc-month-view .timedEvent .fc-content:hover .fc-title,
+
+app-header,
+
+.fc-unthemed .fc-list-item:hover td,
+
+.label {
+
+background-color: var(--primary-background-color) !important;
+
+}
+
+paper-item:hover,
+
+paper-icon-item:hover,
+
+textarea,
+
+.ui-datepicker,
+
+#skinsDialog .addButton,
+
+#betaCalendar .fc-basic-view .fc-week-number,
+
+#accountAvatars {
+
+background-color: var(--secondary-background-color) !important;
+
+}
+
+.accountHeader {
+
+background-color: var(--account-header-background-color) !important;
+
+}
+
+#accountAvatars {
+
+height: 100vh;
+
+margin-top: 0;
+
+padding-top: 2vh;
+
+}
+
+.fc-unthemed .fc-list-heading td {
+
+background-color: #444;
+
+}
+
+app-drawer-layout,
+
+#mainContent {
+
+background-color: var(--main-background-color) !important;
+
+}
+
+#betaCalendar.highlightWeekends .fc-sat,
+
+#betaCalendar.highlightWeekends .fc-sun{
+
+background-color: #444a;
+
+}
+
+.fc-unthemed .fc-list-empty,
+
+.fc-day-top {
+
+background-color: #0000 !important;
+
+}
+
+body {
+
+background-color: #000;
+
+}
+
+/scroll bar/
+
+::-webkit-scrollbar,
+
+::-webkit-scrollbar-corner {
+
+background-color: var(--secondary-background-color);
+
+}
+
+::-webkit-resizer {
+
+background-color: var(--primary-background-color);
+
+}
+
+::-webkit-scrollbar-track {
+
+box-shadow: inset 0 0 10px var(--line-color);
+
+border-radius: 10px;
+
+}
+
+::-webkit-scrollbar-thumb {
+
+background-color: var(--accent-color);
+
+border-radius: 10px;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+
+background-color: var(--primary-color);
+
+}
+
+/text color, boldness, and opacity/
+
+#titleLabel,
+
+.accountTitle,
+
+.unreadCount,
+
+.unread,
+
+.labelName {
+
+color: var(--primary-text-color);
+
+}
+
+#betaCalendar .fc-basic-view .fc-week-number,
+
+#betaCalendar .fc-basic-view .fc-day-number,
+
+#calendarTitle,
+
+.ui-datepicker-title,
+
+#betaCalendar .fc-month-view .timedEvent .fc-title,
+
+body.popup app-toolbar,
+
+.ui-datepicker,
+
+thead,
+
+.fc-unthemed .fc-list-heading td,
+
+.fc-unthemed .fc-list-empty {
+
+color: var(--primary-text-color);
+
+font-weight: 500;
+
+}
+
+.dayOfYear,
+
+#betaCalendar .fc-month-view .timedEvent .fc-time,
+
+#betaCalendar .fc-custom-view .timedEvent .fc-time,
+
+paper-item:hover,
+
+paper-icon-item:hover,
+
+textarea,
+
+#mainContent,
+
+app-header,
+
+#betaCalendar.highlightPastDays .fc-event.pastEvent .fc-content .fc-time,
+
+#betaCalendar.highlightPastDays .fc-event.pastEvent .fc-content .fc-title,
+
+#betaCalendar .fc-list-item {
+
+color: var(--secondary-text-color);
+
+font-weight: 500;
+
+}
+
+html:not(.searchInputVisible) #inboxSection app-header-layout app-toolbar paper-icon-button:not(#menu),
+
+.snippet {
+
+color: var(--secondary-text-color);
+
+}
+
+#betaCalendar.highlightPastDays .fc-past,
+
+#betaCalendar.highlightPastDays .pastEvent .eventColorIndicator,
+
+#betaCalendar.highlightPastDays .pastEvent .fc-time,
+
+#betaCalendar.highlightPastDays .pastEvent .fc-content .fc-title {
+
+opacity: 0.5 !important;
+
+}
+
+/sidebar calendar/
+
+.ui-state-default {
+
+color: var(--secondary-text-color) !important;
+
+}
+
+.ui-state-default:hover {
+
+color: #000 !important;
+
+}
+
+/today highlight/
+
+.ui-state-highlight,
+
+.ui-widget-content .ui-state-highlight,
+
+.ui-widget-header .ui-state-highlight,
+
+#betaCalendar .fc-today .fc-day-number {
+
+background-color: var(--accent-color) !important;
+
+}
+
+.ui-state-highlight:hover,
+
+.ui-widget-content .ui-state-highlight:hover,
+
+.ui-widget-header .ui-state-highlight:hover {
+
+background-color: var(--primary-color) !important;
+
+}
+
+#betaCalendar th.fc-today,
+
+.agendaDay.today .agendaDateWrapper {
+
+color: var(--primary-color) !important;
+
+}
+
+/lines/
+
+textarea,
+
+textarea:focus,
+
+.mail,
+
+.fc-unthemed .fc-popover,
+
+.fc-unthemed .fc-row,
+
+.fc-unthemed hr,
+
+.fc-unthemed tbody,
+
+.fc-unthemed td,
+
+.fc-unthemed th,
+
+.fc-unthemed thead,
+
+.fc-view {
+
+border-color: var(--line-color) !important;
+
+outline-color: var(--line-color);
+
+}
+
+.separator,
+
+.fc-unthemed .fc-divider {
+
+background-color: var(--line-color);
+
+}
+
+/colors/
+
+paper-icon-button,
+
+paper-dialog .buttons paper-icon-button {
+
+color: var(--primary-color);
+
+--iron-icon_-_opacity: 0.7;
+
+}
+
+.labelName {
+
+background-color: var(--accent-color);
+
+}
+
+/OK button/
+
+paper-button[raised].colored {
+
+background-color: var(--accent-color) !important;
+
+color: var(--primary-text-color);
+
+font-weight: 700;
+
+}
+
+/links/
+
+a,
+
+a:visited {
+
+color: var(--primary-color);
+
+}
+
+/user variables/
+
+{
+
+--accent-color: #6272a4;
+
+--primary-color: #6272a4;
+
+--line-color: #44475a;
+
+--main-background-color: #282a36;
+
+--primary-background-color: #282a36;
+
+--secondary-background-color: #44475a;
+
+--account-header-background-color: #44475a;
+
+--primary-text-color: #f8f8f2;
+
+--secondary-text-color: #6272a4;
+
+--fc-today-bg-color: #282a36;
+
+--today-date-bg-color: #bd93f9
+
+}
