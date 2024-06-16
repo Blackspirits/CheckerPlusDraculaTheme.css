@@ -169,7 +169,7 @@ a:visited {
     color: var(--primary-color);
 }
 /*user variables*/
-* {
+{
     --accent-color: #6272a4;
     --primary-color: #6272a4;
     --line-color: #44475a;
@@ -179,4 +179,6 @@ a:visited {
     --account-header-background-color: #44475a;
     --primary-text-color: #f8f8f2;
     --secondary-text-color: #6272a4;
+    --fc-today-bg-color: #282a36;
+    --today-date-bg-color: #bd93f9
 }
